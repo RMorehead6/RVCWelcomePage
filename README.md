@@ -1,4 +1,4 @@
-# RVCWelcomePage
+# RVC Welcome Page
 A short web page I made for my web design class.
 
 You can find a live preview of the page here: 

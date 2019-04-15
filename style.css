@@ -1,0 +1,242 @@
+html, body     {margin: 0px;
+                padding: 0px;}
+body           {background-color: #dbdbdb}
+#wrapper       {margin-left: 2%; 
+                margin-right: 2%; 
+                margin-top: 50px;
+                width: 96%;  }
+.navbar        {overflow: hidden;
+                background-color: #244d81;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                font-family: 'Lato', sans-serif;
+                border-bottom: 2px solid #E8B80E;
+                z-index: 2;}
+.navbar a      {float: left;
+                display: block;
+                color: #ffffff;
+                text-align: center;
+                padding: 14px 10px;
+                text-decoration: none;}
+.navbar a:hover{background: #E8B80E;
+                color: #000000;}
+.blockone      {background-color: #02375E;
+                box-shadow: 3px 3px 3px #333333; 
+                border: 1px #000033;
+                border-radius: 15px;}
+.blockone h1   {font-size: 5em;
+                text-align: center;
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #ffffff;
+                margin-bottom: 5px;}
+.blockone img  {display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0;
+                padding-bottom: 5px;
+                max-width: 650px;}
+.imgblock      {display: block;
+                margin-top: 10px;}
+.imgblock span.a{display: inline-block;
+                width: 49.5%;}
+.imgblock span.b{display: inline-block;
+                width: 49.5%;}
+.imgblock img  {box-shadow: 3px 3px 3px #333333; 
+                border: 1px #000033;}
+.imgblockmobile{display: none;}
+.paragraphs  {display: block;
+              font-size: 1.5em; 
+              font-family: 'Lato', sans-serif;}
+.paragraphs strong {color: #ff0000;
+                    text-decoration: underline;}
+#gallery   {display: block;
+            position: absolute;
+            z-index: 1;
+            width: 96%;
+            height: 630px;
+            background-color: #244d81;
+            box-shadow: 3px 3px 3px #333333;
+            border-radius: 10px;}
+#gallery h1{display: block;
+            text-align: center;
+            font-size: 3em;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #ffffff;
+            text-decoration: underline;}
+#gallery p {text-align: center;
+            margin-top: 500px;
+            color: #ffffff;
+            font-family: 'Source Sans Pro', sans-serif;}
+#gallery ul{list-style-type: none;
+            width: 300px;}
+#gallery li{display: inline; 
+            float: left;
+	        padding: 10px;}
+#gallery img 
+           {border-style: none;}
+#gallery a {text-decoration: none;
+            font-style: italic;
+            color: #ffffff;
+            font-family: 'lato', sans-serif;}
+#gallery span 
+           {position: absolute;
+            left: -1000px;
+            opacity: 0;
+            transition:  opacity 0.5s ease-in-out;}
+#gallery a:hover span 
+           {position: absolute;
+			top: 150px;
+			left: 34%; 
+			text-align: center; 
+            opacity: 1;}
+figure     {position: absolute;
+			left: 30%; 
+			text-align: center; 
+            opacity: .0;}
+#tabletgallery{display: none;}
+#phonegallery{display: none;}
+#woss                  {display: block;
+                        margin-top: 680px;}
+#whatourstudentssay    {display: block;
+                        background-color: #02375E;
+                        color: #ffffff;
+                        box-shadow: 3px 3px 3px #333333; 
+                        border: 1px #000033;
+                        padding-bottom: 20px;
+                        border-radius: 10px;}
+#whatourstudentssay h1 {font-family: 'lato', sans-serif;
+                        text-align: center;
+                        padding-top: 20px;
+                        text-decoration: underline;
+                        padding-left: 20px;
+                        padding-right: 20px;}
+#whatourstudentssay p  {font-family: 'Source Sans Pro', sans-serif;
+                        text-align: center;
+                        font-size: 1.2em}
+                        
+#whatourstudentssay table, th, td      {border: 2px solid #E8B80E;
+                                        border-collapse: collapse;
+                                        font-family: 'Source Sans Pro', sans-serif;
+                                        font-size: 1.2em;}
+#whatourstudentssay table {margin: 0 20px;}
+#whatourstudentssay th  {text-align: center;
+                         padding: 0 10px;}
+#whatourstudentssay td  {text-align: left;
+                         padding: 0 10px;}
+#wossmobile        {display: none;}
+#contact           {display: block;
+                    color: #000000;
+                    padding-bottom: 1px;
+                    font-family: 'Source Sans Pro', sans-serif;}
+#contact i         {color: #E8B80E;
+                    text-decoration: underline;}
+#contact h1        {text-align: center;
+                    color: #ff0000;
+                    text-decoration:underline;}
+#contact h2        {text-align: center;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    padding: 0 10px}
+#contact p         {                    text-align: center;
+                    font-size: 1.5em;
+                    padding: 0 10px}
+#contact a         {color: #E8B80E;
+                    text-decoration: none;}
+#contact img       {display: block;
+                    max-width: 600px;
+                    margin: 0 auto;}
+#bottomimg         {display: block;
+                    background-color: #ffd52f;
+                    color: #ffffff;
+                    box-shadow: 3px 3px 3px #333333; 
+                    border: 1px #000033;
+                    border-radius: 25px;
+                    padding-bottom: 1px;}
+#bottomimg img     {display: block;
+                    max-width: 600px;
+                    margin: 0 auto;}
+.bottom            {padding-bottom: 15px}
+#contact span.desktop    {display: block;}
+#contact span.phone      {display: none;}
+footer     {margin-top: 10px;
+            text-align: center;
+            font-family: 'lato', sans-serif;
+            margin-bottom: 10px;}
+
+@media only screen and (max-width: 64em) {
+    #gallery               {display: none;}
+    #tabletgallery         {display: block;
+                            background-color: #244d81;
+                            color: #ffffff;
+                            box-shadow: 3px 3px 3px #333333; 
+                            border: 1px #000033;
+                            border-radius: 10px;}
+    #tabletgallery h1      {display: block;
+                            text-align: center;
+                            font-size: 2em;
+                            font-family: 'lato', sans-serif;
+                            font-weight: bold;
+                            padding-top: 20px;
+                            text-decoration: underline;}
+    #tabletgallery p       {text-align: center;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-size: 1.2em;}
+    #woss    {margin-top: 0px;}
+}
+
+@media only screen and (max-width: 37.5em) {
+    .navbar a              {font-size: 0.64em}
+    .blockone              {border-radius: 15px}
+    .blockone h1           {font-size: 4.0em;}
+    .imgblock              {display: none;}
+    .imgblockmobile        {display: block;
+                            width: 100%;
+                            margin-top: 10px;}
+    .imgblockmobile img    {box-shadow: 3px 3px 3px #333333; 
+                            border: 1px #000033;}
+    .paragraphs            {font-size: 1.2em}
+    #gallery               {display: none;}
+    #tabletgallery         {display: none;}
+    #phonegallery          {display: block;
+                            background-color: #244d81;
+                            color: #ffffff;
+                            box-shadow: 3px 3px 3px #333333; 
+                            border: 1px #000033;
+                            border-radius: 10px;}
+    #phonegallery h1       {display: block;
+                            text-align: center;
+                            font-size: 2em;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-weight: bold;
+                            padding-top: 20px;
+                            text-decoration: underline;}
+    #phonegallery p        {text-align: center;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-size: 1.2em;}
+    #whatourstudentssay    {display: none;}
+    #wossmobile            {display: block;
+                            background-color: #02375E;
+                            color: #ffffff;
+                            box-shadow: 3px 3px 3px #333333; 
+                            border: 1px #000033;
+                            padding-bottom: 20px;
+                            border-radius: 10px;}
+    #wossmobile table, th, td          {border: 2px solid #E8B80E;
+                                        border-collapse: collapse;
+                                        font-family: 'Source Sans Pro', sans-serif;
+                                        font-size: 1.2em;}
+    #wossmobile p      {font-family: 'Source Sans Pro', sans-serif;
+                        text-align: center;
+                        font-size: 1.2em;
+                        padding: 0 10px}
+    #wossmobile h1     {font-family: 'lato', sans-serif;
+                        text-align: center;
+                        padding-top: 20px;
+                        text-decoration: underline;
+                        padding-left: 10px;
+                        padding-right: 10px}
+    #wossmobile table  {margin: 0 20px;
+                        margin-top: 20px}
+    #contact span.desktop  {display: none;}
+    #contact span.phone    {display: block;}
+}
